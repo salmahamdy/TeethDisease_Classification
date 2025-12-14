@@ -59,7 +59,7 @@ train_ds = tf.keras.utils.image_dataset_from_directory(
     image_size=(224, 224),
     batch_size=32
 )
-
+```
 ## Evaluation
 
 Both scripts output:

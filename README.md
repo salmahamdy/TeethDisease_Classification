@@ -15,7 +15,7 @@ The dataset contains 7 classes of dental conditions organized into training, val
 
 ## Models
 
-### 1. Custom CNN (`DentalImageClassification.py`)
+### 1. Custom CNN 
 
 Built from scratch with 5 convolutional blocks:
 - Progressive filter increase: 32 → 64 → 128 → 128 → 64
@@ -31,7 +31,7 @@ Built from scratch with 5 convolutional blocks:
 
 Includes horizontal flip augmentation during training.
 
-### 2. VGG16 Transfer Learning (`Dental_Image_Classification_VGG.py`)
+### 2. VGG16 Transfer Learning 
 
 Pre-trained VGG16 (ImageNet weights) with frozen base layers:
 - Global average pooling

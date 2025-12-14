@@ -21,7 +21,8 @@ Built from scratch with 5 convolutional blocks:
 - Progressive filter increase: 32 → 64 → 128 → 128 → 64
 - Max pooling after each conv layer
 - 50% dropout for regularization
-- Dense layers: 128 units + 7-class output
+- Dense layers: 128 units + 7-class output.
+
 
 **Training config:**
 - Optimizer: Adam (lr=0.001)

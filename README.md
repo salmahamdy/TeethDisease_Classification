@@ -59,13 +59,6 @@ train_ds = tf.keras.utils.image_dataset_from_directory(
     image_size=(224, 224),
     batch_size=32
 )
-```
-
-Run either model:
-```bash
-python DentalImageClassification.py
-python Dental_Image_Classification_VGG.py
-```
 
 ## Evaluation
 
@@ -75,11 +68,6 @@ Both scripts output:
 - Confusion matrix (VGG16 script)
 - Classification report with precision/recall/F1
 - Multi-class ROC curves
-
-## Model Saving
-
-- CNN: Saved as `cnn_model.h5`
-- VGG16: Saved as `Dental_VGG16_finetuned.h5`
 
 ## Requirements
 
